@@ -1,0 +1,66 @@
+// Body
+$body-bg: #f8fafc;
+
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary:#005ae2;
+$primary-dark: #087990;
+$secondary: #ced4da;
+$danger: #d22738;
+$warning: #fcb92c;
+$dark: #312f2f;
+$success: #1cbb8c;
+
+$body-color: $gray-600;
+$font-family-base: Roboto Condensed, sans-serif;
+$font-size-base : 14px;
+
+$colors: (
+  "primary": $primary,
+  'primary-dark':$primary-dark,
+  'success':$success,
+  "secondary": $secondary,
+  "danger": $danger,
+  "warning": $warning,
+  'dark':#666666,
+);
+
+$theme-colors: (
+  "primary": $primary,
+  'primary-dark':$primary-dark,
+  "secondary": $secondary,
+  "danger": $danger,
+  "warning": $warning,
+  'dark':#666666,
+  'success':$success
+);
+
+
+// Tablas
+$table-variants: (
+  'dark-blue':$indigo-800,
+  'primary':$primary
+);
+
+$table-th-font-weight: 400;
+
+// Buttons
+$btn-border-width: 2px;
+$btn-font-size: 0.875rem;
+
+// cards
+$card-color: #666666;
+
+//navbar
+$navbar-padding-x: 1rem;
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/utilities/api";
+@import "bootstrap/scss/root";
+// @import "~bootstrap/scss/bootstrap";
