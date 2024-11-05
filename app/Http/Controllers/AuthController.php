@@ -16,8 +16,8 @@ class AuthController extends Controller
 
         $directoryPath = $request->input('directory');
 
-        if (is_dir('../'.$directoryPath)) {
-            return Redirect::to('../'.$directoryPath.'/public');
+        if (is_dir('../empresas/'.$directoryPath)) {
+            return Redirect::to('../empresas/'.$directoryPath.'/public');
         }
 
         return back()->withErrors(['directory' => 'La información ingresada no es válida.']);
